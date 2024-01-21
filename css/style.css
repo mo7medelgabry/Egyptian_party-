@@ -1,0 +1,221 @@
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* height: 1000vh; */
+}
+
+#head{
+    text-align: center;
+}
+
+
+/*  */
+.option{
+    display: flex;
+    position: fixed;
+    left: 0px;
+    left: -250px;
+    z-index: 99999;
+    align-items: flex-start;
+}
+.option span{
+    padding-left: 30px;
+    font-weight: 400;
+    margin-top: 100%;
+    cursor: pointer;
+    font-size: 30px;
+    color: white !important;
+}
+
+
+
+a {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none !important;
+}
+.optionSide{
+    
+    background-color: #0e0d0d;
+    height: 100vh;
+    /* width: 100%; */
+}
+
+ul {
+    padding-top: 15%;
+    padding-right:80px ;
+    list-style-type: none;
+}
+
+ul li{
+    line-height: 80px;
+}
+
+.optionSide i:hover,.option ul li a:hover{
+    color: #c00000 !important;
+    transition: all 0.5s;
+}
+
+
+
+
+/*  */
+
+.back_img{
+    width: 100%;
+    height: 65vh;
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) ,url(../img/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    
+}
+
+.text_header h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+}
+
+.text_header p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+
+/* duaetion -------------------------- */
+
+
+.btn{
+    background-color:rgb(230, 130, 133);
+    padding: 10px;
+    border-radius: 0% !important;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+.btn:hover{
+    background-color:rgb(230, 130, 133);
+    padding: 10px;
+    border-radius: 0% !important;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+.btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color:rgb(230, 130, 133);
+    padding: 10px;
+    border-radius: 0% !important;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.singer-two,.singer-three,.singer-four{
+    display: none;
+}
+.singer-one h2,.singer-two h2,.singer-three h2,.singer-four h2{
+    color: black;
+    padding: 10px !important;
+    margin-bottom: 0 !important;
+    background-color: #CCCCCC;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+
+/* data --------------------- */
+
+#event_date{
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) ,url(../img/invitation-2508607__340.jpg);
+}
+
+#event_date .days,#event_date .hours,#event_date .mins,#event_date .secs{
+    text-align: center;
+    color: white;
+    width: 300px;
+    margin:0px 10px;
+    padding: 20px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* join --------------------- */
+/* 
+#join{
+    padding-top: 100px !important;
+} */
+
+.first{
+    margin-top: 200px;
+}
+
+.first h2{
+    color: #444444;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.first p{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.texts1 h2{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.texts1 p{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.twittwre i{
+    color: #777777;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid;
+    
+}
+
+.twittwre i:hover{
+    background-color: #c00000;
+color: white;
+}
+
+
+
+textarea{
+    height: 150px;
+}
+.btn1{
+    background-color: #e02929;
+    color: white;
+    padding: 12px;
+    border: 0px;
+}
+
+
+#char{
+    font-size: 20px;
+    color: #c00000;
+}
